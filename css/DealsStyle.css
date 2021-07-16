@@ -1,0 +1,1937 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;
+    
+}
+body{
+  background-image: url('../123.jpg');
+  height:auto ;
+  width:99%;
+
+}
+#q{
+  margin-left:50px ; margin-top: 0px; border-radius: 70px;
+}
+.left   ul{
+  float: right;
+    list-style-type: none;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-left: auto;
+   
+}
+.left  ul li{
+display: inline-block;
+font-style: oblique;
+font-size: large;
+}
+.left  ul li a{
+   
+    text-decoration:none ; color: yellow;  padding: 10px; padding-left: 35px; padding-right: 35px;
+    
+}
+.left ul li a:hover{ border-bottom:2px solid yellow ; }
+
+.btn{
+    width:150px;
+    height: 530px;
+    margin: 5px;
+}
+
+
+
+.featured{
+    border-radius: 150px;
+    width: 90%;
+    height:80px ;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-top:100px;
+    background-color: yellow;
+
+}
+.featured h1{
+    border-radius: 20px;
+     border: 2px solid black;
+     text-align: center;
+     font-size: xx-large;
+     font-style:oblique;
+     color: yellow;
+    background-color: red;
+}
+.abc{
+    
+    
+    width: 100%;
+  margin-top: 15px; 
+    height:510px ;
+    background-color: transparent;
+}
+.a:hover{
+  background-color: yellow;
+  color: black;
+  transition: 0.6s ease;
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+.abc:hover{
+    background-color:transparent;
+    
+  }
+.a{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 23%;
+    height:480px ;
+    float: left;
+    margin-left:21px ;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+.a select{
+  width: 40%;
+  margin-top: 20px;
+  border: solid 4px black;
+  background-color: salmon;
+  border-radius: 15px;
+}
+.a select:hover{
+  width: 40%;
+  border: solid 4px salmon;
+  background-color: tomato;
+  color: black;
+
+  border-radius: 15px;
+}
+#iamg{
+   margin-top: 30px;
+   border:3px solid black ;
+  border-radius: 20px;
+
+}
+.a button{
+  border-radius:12px;
+  padding:10px;
+  padding-right:65px;
+  padding-left:65px;
+ margin-top: 20px;
+      background-color:black;
+      color: red;
+   font-size:20px;
+   border: 2px solid black;
+   
+}
+.a button:hover{
+  background-color:red;
+  color:yellow;
+  transition: 0.6s ease;
+}
+.ftr{
+  margin-top: 80px;
+  height:350px ;
+  width: 100%;
+  background-color: darkslategray;
+}
+
+.featured1{
+  border-radius: 150px;
+  width: 90%;
+  height:80px ;
+  margin-left: 70px;
+  border: 2px solid black;
+  margin-top:100px;
+  background-color: yellow;
+
+}
+.featured1 h1{
+  border-radius: 20px;
+   border: 2px solid black;
+   text-align: center;
+   font-size: xx-large;
+   font-style:oblique;
+   color: yellow;
+  background-color: red;
+}
+
+.abcd{
+    
+    
+  width: 100%;
+  margin-top: 15px; 
+  height:510px ;
+  background-color: transparent;
+}
+.b:hover{
+background-color: yellow;
+color: black;
+transition: 0.6s ease;
+animation: shake 0.5s;
+
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+.abcd:hover{
+  background-color:transparent;
+  
+}
+.b{
+  text-align: center;
+  border: 2px solid burlywood;
+  border-radius: 25px;
+  width: 23%;
+  height:480px ;
+  float: left;
+  margin-left:21px ;
+  margin-top: 10px;
+  background-color: burlywood;
+}
+
+.b select{
+  width: 40%;
+  margin-top: 20px;
+  border: solid 4px black;
+  background-color: salmon;
+  border-radius: 15px;
+}
+.b select:hover{
+  width: 40%;
+  border: solid 4px salmon;
+  background-color: tomato;
+  color: black;
+
+  border-radius: 15px;
+}
+
+.b button{
+  border-radius:12px;
+  padding:10px;
+  padding-right:65px;
+  padding-left:65px;
+ margin-top: 20px;
+      background-color:black;
+      color: red;
+   font-size:20px;
+   border: 2px solid black;
+   
+}
+.b button:hover{
+  background-color:red;
+  color:yellow;
+  transition: 0.6s ease;
+}
+.ftr{
+  margin-top: 80px;
+  height:180px ;
+  width: 100%;
+  background-color:black;
+}
+.trms{
+  float: left;
+  margin-top: 5px;
+ 
+  height: 70px;
+  width:40%;
+}
+.trms ul{
+  list-style-type:none;
+  display: inline-block;
+  margin-left:40px;
+
+}
+.trms ul li{
+  color:whitesmoke;
+  float: left;
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: small;
+}
+.trms ul li a{
+  font-style: inherit;
+  color: whitesmoke;
+  }
+.trms ul li a:hover{
+border-bottom: 2px solid whitesmoke;
+}
+.icons{
+ width: 99%;
+ height:100px;
+
+}
+
+.lft{
+ 
+  margin-top: 1%;
+  width: 40%;
+  float: left;
+  margin: 10px;
+  margin-left: 6%;
+  color:whitesmoke;
+}
+.lft h3{
+float: left;
+font-size: x-large;
+ font-weight: bolder;
+}
+.cpy{
+  float: right;
+  margin-top: 5px;
+  
+  height: 70px;
+  width:40%;
+  margin-right: 90px;
+
+}
+.cpy p{
+color: whitesmoke;
+font-weight: bold;
+font-size: small;
+}
+.lft a{
+  float: left;
+  margin-top: 25px;
+  margin-left:10px ;
+  
+  border-radius: 150px;
+}
+
+.rgt{
+  
+  margin-top: 1%;
+  margin-right: 9%;
+  width: 40%;
+  float: right;
+  color:whitesmoke;
+}
+.rgt h3{
+ float: right;
+ font-size: x-large;
+ font-weight: bolder;
+}
+.rgt a{
+  float: right;
+  margin: 10px;
+}
+.top{
+   border: 2px solid black;
+   height:90px;
+   width:20%;
+   border-radius: 150px;
+   margin-top: 35px;
+   margin-left: 40%;
+   background-color: black;
+   animation-name: example;
+   animation-duration: 3s;
+      animation-iteration-count: infinite;
+}
+.top h1{
+
+  background-color: black;
+  color:black;
+  text-align: center;
+  border-radius: 150px;
+  margin-bottom: 5px;
+  animation-name: example;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color:red;}
+  100% {background-color:yellow;}
+}
+
+
+
+
+.main2{
+
+  width:50%;
+  margin-top:  70px;
+  height:300px;
+  margin-left: 35%;
+  margin-right: auto;
+  margin-top: 150px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+.login{
+  width:50%;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+color:white;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 30px;
+border:3px solid white;
+}
+.login2{
+  width:50%;
+  height: 620px;
+  margin-left: auto;
+  margin-right: auto;
+
+color:white;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+border:3px solid white;
+}
+#v{
+  
+  float:right;
+  display: inline-block;
+
+  margin-right: 110px;
+  display: inline-block;
+  width:150px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+}
+#sbtn{
+  position: relative; left:40%;margin-top: 40px;font-size: 20px; background-color:white; width:100px;border: none; height:30px;border-radius:20px;
+}
+#k{
+  margin-top: auto;
+  width: 75%;
+  font-size: auto;
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 15px;
+}
+#detail{
+  width:100%;
+  height:200px;
+
+
+opacity:2;
+
+}
+
+
+
+@media only screen and (max-width:1100px){
+
+
+  #k{
+      width:85% ;
+      
+  }
+#v{
+  width:200px ;
+
+  font-size: medium;    
+}
+}
+
+
+
+
+@media only screen and (max-width:980px){
+
+
+  #k{
+      width:85% ;
+      
+  }
+#v{
+  width:180px ;
+  float:right;
+  margin-right: 30px;
+  font-size: medium;    
+}
+
+
+
+}
+
+@media only screen and (max-width:1230px){
+  .ftr{
+    margin-top: 80px;
+    height:430px ;
+    width: 100%;
+   
+    background-color:black;
+  }
+
+
+
+
+
+
+
+  
+}
+@media only screen and (max-width:1280px){
+  .ftr{
+    margin-top: 80px;
+    height:430px ;
+    width: 100%;
+   
+    background-color:black;
+  }
+  .featured{
+  
+    width: 80%;
+    height:50px ;
+  
+    margin-left: 9%;
+    border: 1px solid black;
+    margin-top:100px;
+    background-color:yellow;
+    border-radius: 150px;
+  
+  
+  }
+  .featured h1{
+    border: 2px solid black;
+    border-radius: 18px;
+    text-align: center;
+    font-size: large;
+    font-style:oblique;
+    background-color: red;
+    color:yellow;
+ }
+ .abc{
+       
+       
+   width: 95%;
+   margin-left:57px ;
+   height:510px ;
+   background-color:transparent;
+   
+ }
+ .a select:hover{
+   width: 70%;
+   border: solid 4px red;
+   background-color: red;
+   color:black;
+ 
+   border-radius: 15px;
+ }
+ 
+ 
+ .a{
+   text-align: center;
+   border: 2px solid burlywood;
+   border-radius: 25px;
+   width: 22%;
+   height:480px ;
+   float: left;
+   margin-left:1% ;
+   margin-top: 10px;
+   color:black;
+   background-color:burlywood;
+    
+ }
+ .a:hover{
+   background-color:yellow;
+   color:black;
+   border:yellow;
+   animation: shake 0.5s;
+ 
+ /* When the animation is finished, start again */
+ animation-iteration-count: infinite;
+ }
+ label{
+ font-size: medium;
+ }
+ .a select{
+ width: 70%;
+ margin-top: 20px;
+ border: solid 4px bisque;
+ font-size: small;
+ background-color: darksalmon;
+ color: black;
+ border-radius: 15px;
+ }
+ #iamg{
+  margin-top: 40px;
+ border-radius: 10px;
+ width: 65%;
+ height: 35%;
+ 
+ }
+ .a button{
+ border-radius:12px;
+ padding:5px;
+ padding-right:15px;
+ padding-left:15px;
+ margin-top: 20px;
+     background-color:black;
+     color:red;
+  font-size:18px;
+  border: 2px solid black;
+ border-style: inherit;
+ }
+ .a p{
+ font-size: small;
+ }
+ .a h3{
+  font-size: large;  
+ }
+
+
+
+ .abcd{
+       
+       
+   width: 95%;
+   margin-left:57px ;
+   height:510px ;
+   background-color:transparent;
+   
+ }
+ .b select:hover{
+   width: 70%;
+   border: solid 4px red;
+   background-color: red;
+   color:black;
+ 
+   border-radius: 15px;
+ }
+ 
+ 
+ .b{
+   text-align: center;
+   border: 2px solid burlywood;
+   border-radius: 25px;
+   width: 22%;
+   height:480px ;
+   float: left;
+   margin-left:1% ;
+   margin-top: 10px;
+   color:black;
+   background-color:burlywood;
+    
+ }
+ .b:hover{
+   background-color:yellow;
+   color:black;
+   border:yellow;
+   animation: shake 0.5s;
+ 
+ /* When the animation is finished, start again */
+ animation-iteration-count: infinite;
+ }
+ label{
+ font-size: medium;
+ }
+ .b select{
+ width: 70%;
+ margin-top: 20px;
+ border: solid 4px bisque;
+ font-size: small;
+ background-color: darksalmon;
+ color: black;
+ border-radius: 15px;
+ }
+ #iamg{
+  margin-top: 40px;
+ border-radius: 10px;
+ width: 65%;
+ height: 35%;
+ 
+ }
+ .b button{
+ border-radius:12px;
+ padding:5px;
+ padding-right:15px;
+ padding-left:15px;
+ margin-top: 20px;
+     background-color:black;
+     color:red;
+  font-size:18px;
+  border: 2px solid black;
+ border-style: inherit;
+ }
+ .b p{
+ font-size: small;
+ }
+ .b h3{
+  font-size: large;  
+ }
+
+
+
+}
+@media only screen and (max-width:1190px){
+  .ftr{
+    margin-top: 80px;
+    height:400px ;
+    width: 100%;
+   
+    background-color:black;
+  }
+  .cpy{
+  
+    margin-top: 5px;
+    height: 70px;
+    width:100%;
+  
+  
+  }
+  .cpy p{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: small;
+    margin-left:45%;
+    }
+
+  
+    .abc{
+          
+          
+      width: 95%;
+      margin-left:57px ;
+      height:510px ;
+      background-color:transparent;
+      
+    }
+    .a select:hover{
+      width: 70%;
+      border: solid 4px red;
+      background-color: red;
+      color:black;
+    
+      border-radius: 15px;
+    }
+    
+    
+    .a{
+      text-align: center;
+      border: 2px solid burlywood;
+      border-radius: 25px;
+      width: 22%;
+      height:480px ;
+      float: left;
+      margin-left:1% ;
+      margin-top: 10px;
+      color:black;
+      background-color:burlywood;
+       
+    }
+    .a:hover{
+      background-color:yellow;
+      color:black;
+      border:yellow;
+      animation: shake 0.5s;
+    
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+    }
+    label{
+    font-size: medium;
+    }
+    .a select{
+    width: 70%;
+    margin-top: 20px;
+    border: solid 4px bisque;
+    font-size: small;
+    background-color: darksalmon;
+    color: black;
+    border-radius: 15px;
+    }
+    #iamg{
+     margin-top: 40px;
+    border-radius: 10px;
+    width: 65%;
+    height: 35%;
+    
+    }
+    .a button{
+    border-radius:12px;
+    padding:5px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-top: 20px;
+        background-color:black;
+        color:red;
+     font-size:18px;
+     border: 2px solid black;
+    border-style: inherit;
+    }
+    .a p{
+    font-size: small;
+    }
+    .a h3{
+     font-size: large;  
+    }
+
+
+
+    .abcd{
+          
+          
+      width: 95%;
+      margin-left:57px ;
+      height:510px ;
+      background-color:transparent;
+      
+    }
+    .b select:hover{
+      width: 70%;
+      border: solid 4px red;
+      background-color: red;
+      color:black;
+    
+      border-radius: 15px;
+    }
+    
+    
+    .b{
+      text-align: center;
+      border: 2px solid burlywood;
+      border-radius: 25px;
+      width: 22%;
+      height:480px ;
+      float: left;
+      margin-left:1% ;
+      margin-top: 10px;
+      color:black;
+      background-color:burlywood;
+       
+    }
+    .b:hover{
+      background-color:yellow;
+      color:black;
+      border:yellow;
+      animation: shake 0.5s;
+    
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+    }
+    label{
+    font-size: medium;
+    }
+    .b select{
+    width: 70%;
+    margin-top: 20px;
+    border: solid 4px bisque;
+    font-size: small;
+    background-color: darksalmon;
+    color: black;
+    border-radius: 15px;
+    }
+    #iamg{
+     margin-top: 40px;
+    border-radius: 10px;
+    width: 65%;
+    height: 35%;
+    
+    }
+    .b button{
+    border-radius:12px;
+    padding:5px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-top: 20px;
+        background-color:black;
+        color:red;
+     font-size:18px;
+     border: 2px solid black;
+    border-style: inherit;
+    }
+    .b p{
+    font-size: small;
+    }
+    .b h3{
+     font-size: large;  
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:1120px){
+  .ftr{
+    margin-top: 80px;
+    height:400px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 17px;
+   
+    height: 70px;
+    width:100%;
+  }
+  .trms ul{
+    
+    list-style-type:none;
+    display: inline-block;
+  margin-left: 25%;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+  text-align: center;
+  
+    font-weight: bolder;
+    font-size: small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  
+}
+.abc{
+      
+      
+  width: 95%;
+  margin-left:57px ;
+  height:510px ;
+  background-color:transparent;
+  
+}
+.a select:hover{
+  width: 70%;
+  border: solid 4px red;
+  background-color: red;
+  color:black;
+
+  border-radius: 15px;
+}
+
+
+.a{
+  text-align: center;
+  border: 2px solid burlywood;
+  border-radius: 25px;
+  width: 22%;
+  height:480px ;
+  float: left;
+  margin-left:1% ;
+  margin-top: 10px;
+  color:black;
+  background-color:burlywood;
+   
+}
+.a:hover{
+  background-color:yellow;
+  color:black;
+  border:yellow;
+  animation: shake 0.5s;
+
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+label{
+font-size: medium;
+}
+.a select{
+width: 70%;
+margin-top: 20px;
+border: solid 4px bisque;
+font-size: small;
+background-color: darksalmon;
+color: black;
+border-radius: 15px;
+}
+#iamg{
+ margin-top: 40px;
+border-radius: 10px;
+width: 65%;
+height: 35%;
+
+}
+.a button{
+border-radius:12px;
+padding:5px;
+padding-right:15px;
+padding-left:15px;
+margin-top: 20px;
+    background-color:black;
+    color:red;
+ font-size:18px;
+ border: 2px solid black;
+border-style: inherit;
+}
+.a p{
+font-size: small;
+}
+.a h3{
+ font-size: large;  
+}
+
+
+
+
+
+
+
+
+
+.abcd{
+      
+      
+  width: 95%;
+  margin-left:57px ;
+  height:510px ;
+  background-color:transparent;
+  
+}
+.b select:hover{
+  width: 70%;
+  border: solid 4px red;
+  background-color: red;
+  color:black;
+
+  border-radius: 15px;
+}
+
+
+.b{
+  text-align: center;
+  border: 2px solid burlywood;
+  border-radius: 25px;
+  width: 22%;
+  height:480px ;
+  float: left;
+  margin-left:1% ;
+  margin-top: 10px;
+  color:black;
+  background-color:burlywood;
+   
+}
+.b:hover{
+  background-color:yellow;
+  color:black;
+  border:yellow;
+  animation: shake 0.5s;
+
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+label{
+font-size: medium;
+}
+.b select{
+width: 70%;
+margin-top: 20px;
+border: solid 4px bisque;
+font-size: small;
+background-color: darksalmon;
+color: black;
+border-radius: 15px;
+}
+#iamg{
+ margin-top: 40px;
+border-radius: 10px;
+width: 65%;
+height: 35%;
+
+}
+.b button{
+border-radius:12px;
+padding:5px;
+padding-right:15px;
+padding-left:15px;
+margin-top: 20px;
+    background-color:black;
+    color:red;
+ font-size:18px;
+ border: 2px solid black;
+border-style: inherit;
+}
+.b p{
+font-size: small;
+}
+.b h3{
+ font-size: large;  
+}
+.ftr{
+  margin-top: 80px;
+  height:400px ;
+  width: 100%;
+  background-color:black;
+}
+.trms{
+  float: left;
+  margin-top: 17px;
+ 
+  height: 70px;
+  width:100%;
+}
+.trms ul{
+  
+  list-style-type:none;
+  display: inline-block;
+margin-left: 25%;
+
+}
+.trms ul li{
+  color:whitesmoke;
+text-align: center;
+
+  font-weight: bolder;
+  font-size: small;
+}
+.trms ul li a{
+  font-style: inherit;
+  color: whitesmoke;
+  }
+.trms ul li a:hover{
+border-bottom: 2px solid whitesmoke;
+}
+.icons{
+ width: 99%;
+ height:100px;
+
+}
+
+.lft{
+ 
+  margin-top: 1%;
+  width: 100%;
+
+  margin: 10px;
+  margin-left: 26%;
+  color:whitesmoke;
+}
+.lft h3{
+
+text-align: center;
+font-size: large;
+ font-weight: bolder;
+}
+.cpy{
+  
+  margin-top: 5px;
+  height: 70px;
+  width:100%;
+  margin-left: 10%;
+
+
+}
+.cpy p{
+color: whitesmoke;
+font-weight: bold;
+font-size: small;
+margin-left:40%;
+}
+.lft a{
+  
+  margin-top: 17px;
+  margin-left:20px ;
+  
+  border-radius: 150px;
+}
+#imga{
+  width:25px ;
+  height:25px ;
+}
+#imgb{
+  width:70px ;
+  height:30px ;
+}
+.rgt{
+  
+  margin-top: 1%;
+  margin-right: 27%;
+  width: 100%;
+  float: right;
+  color:whitesmoke;
+}
+.rgt h3{
+ float: right;
+ font-size: larger;
+ font-weight: bolder;
+}
+.rgt a{
+  float: right;
+  margin: 10px;
+}
+}
+@media only screen and (max-width: 875px ){
+  .left   ul{
+    float: right;
+     list-style-type: none;
+      margin-top: 40px;
+      margin-right: 20px;
+      margin-left: auto;
+     
+  }
+  .left  ul li{
+  display: inline-block;
+  font-style: oblique;
+  font-size:large;
+  }
+  .left  ul li a{
+     
+      text-decoration:none ; color: yellow;  padding: 5px; 
+      
+  }
+  #q{
+    height: 100px; width:100; margin-left:50px ; margin-top: 0px; border-radius: 70px;
+    
+  }
+  .featured{
+  
+    width: 60%;
+    height:50px ;
+    
+    margin-left: 21%;
+    border: 1px solid black;
+    margin-top:100px;
+    background-color:yellow;
+    border-radius: 150px;
+  
+  
+  }
+  .featured h1{
+     border: 2px solid black;
+     border-radius: 18px;
+     text-align: center;
+     font-size: medium;
+     font-style:oblique;
+     background-color: red;
+     color:yellow;
+  }
+  .abc{
+        
+        
+    width: 90%;
+    margin-left:57px ;
+    height:510px ;
+    background-color:transparent;
+    
+  }
+  
+  
+  .a{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 21%;
+    height:347px ;
+    float: left;
+    margin-left:1% ;
+    margin-top: 10px;
+    color:black;
+    background-color:burlywood;
+     
+  }
+  .a:hover{
+    background-color:yellow;
+    color:black;
+    border:yellow;
+    animation: shake 0.5s;
+  
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  } 
+  label{
+  font-size: small;
+  }
+  .a select{
+  width: 70%;
+  margin-top: 20px;
+  border: solid 4px bisque;
+  font-size: xx-small;
+  background-color: darksalmon;
+  color: black;
+  border-radius: 15px;
+  }
+  #iamg{
+   margin-top: 40px;
+  border-radius: 10px;
+  width: 75%;
+  height: 25%;
+  
+  }
+  .a button{
+  border-radius:12px;
+  padding:5px;
+  padding-right:15px;
+  padding-left:15px;
+  margin-top: 20px;
+      background-color:black;
+      color:red;
+   font-size:16px;
+   border: 2px solid black;
+  border-style: inherit;
+  }
+  .a p{
+  font-size: xx-small;
+  }
+  .a h3{
+   font-size: small;  }
+
+
+
+
+
+
+
+  
+  .abc{
+        
+        
+    width: 90%;
+    margin-left:57px ;
+    height:510px ;
+    background-color:transparent;
+    
+  }
+  
+  
+  .b{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 22%;
+    height:347px ;
+    float: left;
+    margin-left:1% ;
+    margin-top: 10px;
+    color:black;
+    background-color:burlywood;
+     
+  }
+  .b:hover{
+    background-color:yellow;
+    color:black;
+    border:yellow;
+    animation: shake 0.5s;
+  
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  } 
+  label{
+  font-size: small;
+  }
+  .b select{
+  width: 70%;
+  margin-top: 20px;
+  border: solid 4px darksalmon;
+  font-size: xx-small;
+  background-color: darksalmon;
+  color: black;
+  border-radius: 15px;
+  }
+  #iamg{
+   margin-top: 40px;
+  border-radius: 10px;
+  width: 75%;
+  height: 25%;
+  
+  }
+  .b button{
+  border-radius:12px;
+  padding:5px;
+  padding-right:15px;
+  padding-left:15px;
+  margin-top: 20px;
+      background-color:black;
+      color:red;
+   font-size:16px;
+   border: 2px solid black;
+  border-style: inherit;
+  }
+  .b p{
+  font-size: xx-small;
+  }
+  .b h3{
+   font-size: small;  }
+
+   .ftr{
+    margin-top: 80px;
+    height:300px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 17px;
+   
+    height: 70px;
+    width:100%;
+  }
+  .trms ul{
+    
+    list-style-type:none;
+    display: inline-block;
+  margin-left: 25%;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+  text-align: center;
+  
+    font-weight: bolder;
+    font-size: small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  }
+  .icons{
+   width: 99%;
+   height:100px;
+  
+  }
+  
+  .lft{
+   
+    margin-top: 1%;
+    width: 100%;
+  
+    margin: 10px;
+    margin-left: 26%;
+    color:whitesmoke;
+  }
+  .lft h3{
+  
+  text-align: center;
+  font-size: large;
+   font-weight: bolder;
+  }
+  .cpy{
+    
+    margin-top: 5px;
+    height: 70px;
+    width:100%;
+  
+  
+  }
+  .cpy p{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: small;
+  margin-left:45%;
+  }
+  .lft a{
+    
+    margin-top: 17px;
+    margin-left:20px ;
+    
+    border-radius: 150px;
+  }
+  #imga{
+    width:25px ;
+    height:25px ;
+  }
+  #imgb{
+    width:70px ;
+    height:30px ;
+  }
+  .rgt{
+    
+    margin-top: 1%;
+    margin-right: 27%;
+    width: 100%;
+    float: right;
+    color:whitesmoke;
+  }
+  .rgt h3{
+   float: right;
+   font-size: larger;
+   font-weight: bolder;
+  }
+  .rgt a{
+    float: right;
+    margin: 10px;
+  }
+  #top1{
+    margin-top: 23%;
+    font-size: large;
+  }
+
+
+
+
+
+
+   
+
+}
+
+@media only screen and (max-width:800px){
+  #k{
+      width: 60%;
+      font-size: small;
+
+  }
+  #v{
+      font-size: smaller;
+      float: right;
+margin-right: 3px;
+     width:100px ;    
+  }
+  
+  
+ }
+
+
+
+@media only screen and (max-width: 650px ){
+  #q{
+    height: 70px; width:70; margin-left:50px ; margin-top: 0px; border-radius: 70px;
+    
+  }
+  
+  
+  .left   ul{
+    float: right;
+     list-style-type: none;
+      margin-top: 25px;
+      margin-right: 20px;
+      margin-left: auto;
+     
+  }
+  .left  ul li{
+  display: inline-block;
+  font-style: oblique;
+  font-size:small;
+  }
+  .left  ul li a{
+     
+      text-decoration:none ; color: yellow;  padding: 5px; 
+      
+  }
+  .left ul li a:hover{ border-bottom:2px solid yellow ; }
+
+
+
+  .abc{
+      
+      
+    width: 99%;
+    margin-left:7px ;
+    height:510px ;
+    background-color:transparent;
+    border: transparent;
+}
+.a:hover{
+  background-color:yellow;
+  color:black;
+  border:yellow;
+  animation: shake 0.5s;
+
+
+animation-iteration-count: infinite;
+ 
+}
+
+.a{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 20%;
+    height:317px ;
+    float: left;
+    margin-left:5px ;
+    margin-top: 10px;
+    color:black;
+    background-color:burlywood;
+     animation-name: abc;
+  animation-duration: 1s;
+  
+  animation-iteration-count: infinite;
+}
+
+label{
+  font-size: x-small;
+}
+.a select{
+  width: 70%;
+  margin-top: 20px;
+  border: solid 4px black;
+  font-size: xx-small;
+  background-color: darksalmon;
+  color: black;
+  border-radius: 15px;
+}
+
+.a select:hover{
+  width: 70%;
+  border: solid 4px darksalmon;
+  background-color: darksalmon;
+  color:black;
+
+  border-radius: 15px;
+}
+#iamg{
+   margin-top: 30px;
+  border-radius: 10px;
+  width: 75%;
+  height: 20%;
+
+}
+
+.a button{
+  border-radius:12px;
+  padding:5px;
+  padding-right:15px;
+  padding-left:15px;
+ margin-top: 20px;
+      background-color:black;
+      color:red;
+   font-size:8px;
+   border: 2px solid black;
+border-style: inherit;
+}
+.a p{
+  font-size: xx-small;
+}
+.a h3{
+   font-size: small;  }
+.a button:hover{
+  background-color:red;
+  border:red;
+  color:black;
+  transition: 0.6s ease;}
+.abc{
+      
+      
+    width: 99%;
+    margin-left:7px ;
+    height:510px ;
+    background-color:transparent;
+    border: transparent;
+}
+.a:hover{
+  background-color:yellow;
+  color:black;
+  border:yellow;
+  animation: shake 0.5s;
+
+
+animation-iteration-count: infinite;
+ 
+}
+
+.a{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 20%;
+    height:317px ;
+    float: left;
+    margin-left:5px ;
+    margin-top: 10px;
+    color:black;
+    background-color:burlywood;
+     animation-name: abc;
+  animation-duration: 1s;
+  
+  animation-iteration-count: infinite;
+}
+label{
+  font-size: x-small;
+}
+.a select{
+  width: 70%;
+  margin-top: 20px;
+  border: solid 4px bisque;
+  font-size: xx-small;
+  background-color: darksalmon;
+  color: black;
+  border-radius: 15px;
+}
+
+.a select:hover{
+  width: 70%;
+  border: solid 4px red;
+  background-color: red;
+  color:black;
+
+  border-radius: 15px;
+}
+#iamg{
+   margin-top: 30px;
+  border-radius: 10px;
+  width: 75%;
+  height: 20%;
+
+}
+
+.a button{
+  border-radius:12px;
+  padding:5px;
+  padding-right:15px;
+  padding-left:15px;
+ margin-top: 20px;
+      background-color:black;
+      color:red;
+   font-size:8px;
+   border: 2px solid black;
+border-style: inherit;
+}
+.a p{
+  font-size: xx-small;
+}
+.a h3{
+   font-size: small;  }
+.a button:hover{
+  background-color:red;
+  border:red;
+  color:black;
+  transition: 0.6s ease;}
+
+
+
+
+  .abcd{
+      
+      
+    width: 99%;
+    margin-left:7px ;
+    height:510px ;
+    background-color:transparent;
+    border: transparent;
+}
+.b:hover{
+  background-color:yellow;
+  color:black;
+  border:yellow;
+  animation: shake 0.5s;
+
+
+animation-iteration-count: infinite;
+ 
+}
+
+.b{
+    text-align: center;
+    border: 2px solid burlywood;
+    border-radius: 25px;
+    width: 20%;
+    height:317px ;
+    float: left;
+    margin-left:5px ;
+    margin-top: 10px;
+    color:black;
+    background-color:burlywood;
+     animation-name: abc;
+  animation-duration: 1s;
+  
+  animation-iteration-count: infinite;
+}
+label{
+  font-size: x-small;
+}
+.b select{
+  width: 70%;
+  margin-top: 20px;
+  border: solid 4px bisque;
+  font-size: xx-small;
+  background-color: darksalmon;
+  color: black;
+  border-radius: 15px;
+}
+
+.b select:hover{
+  width: 70%;
+  border: solid 4px red;
+  background-color: red;
+  color:black;
+
+  border-radius: 15px;
+}
+#iamg{
+   margin-top: 30px;
+  border-radius: 10px;
+  width: 75%;
+  height: 20%;
+
+}
+
+.b button{
+  border-radius:12px;
+  padding:5px;
+  padding-right:15px;
+  padding-left:15px;
+ margin-top: 20px;
+      background-color:black;
+      color:red;
+   font-size:8px;
+   border: 2px solid black;
+border-style: inherit;
+}
+.b p{
+  font-size: xx-small;
+}
+.b h3{
+   font-size: small;  }
+.b button:hover{
+  background-color:red;
+  border:red;
+  color:black;
+  transition: 0.6s ease;}
+
+  .featured{
+  
+    width: 80%;
+    height:40px ;
+    margin-right: 100px;
+    margin-left: 6%;
+    border: 1px solid black;
+    margin-top:100px;
+    background-color:yellow;
+    border-radius: 150px;
+  
+  
+  }
+  .featured h1{
+     border: 2px solid black;
+     border-radius: 18px;
+     text-align: center;
+     font-size: small;
+     font-style:oblique;
+     background-color: red;
+     color:yellow;
+  }
+  .ftr{
+    margin-top: 80px;
+    height:280px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 17px;
+   
+    height: 70px;
+    width:100%;
+  }
+  .trms ul{
+    
+    list-style-type:none;
+    display: inline-block;
+  margin-right: 14px;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+  text-align: center;
+  
+    font-weight: bolder;
+    font-size: x-small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  }
+  .icons{
+   width: 99%;
+   height:100px;
+  
+  }
+  
+  .lft{
+   
+    margin-top: 1%;
+    width: 100%;
+  
+    margin: 10px;
+    margin-left: 20%;
+    color:whitesmoke;
+  }
+  .lft h3{
+  
+  text-align: center;
+  font-size: medium;
+   font-weight: bolder;
+  }
+  .cpy{
+    
+    margin-top: 5px;
+    
+    height: 70px;
+    width:100%;
+  
+  
+  }
+  .cpy p{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: small;
+  margin-left: 210px;
+  }
+  .lft a{
+    
+    margin-top: 17px;
+    margin-left:20px ;
+    
+    border-radius: 150px;
+  }
+  #imga{
+    width:25px ;
+    height:25px ;
+  }
+  #imgb{
+    width:70px ;
+    height:30px ;
+  }
+  .rgt{
+    
+    margin-top: 1%;
+    margin-right: 13%;
+    width: 100%;
+    float: right;
+    color:whitesmoke;
+  }
+  .rgt h3{
+   float: right;
+   font-size: medium;
+   font-weight: bolder;
+  }
+  .rgt a{
+    float: right;
+    margin: 10px;
+  }
+  #top1 {
+    margin-top: 35%;
+    font-size: medium;
+  }  
+
+
+  #k{
+    font-size: x-small;
+    width: 85%;
+}
+#v{
+    font-size: x-small;
+    
+    margin-right: 13px;
+   width:50px ;    
+}
+
+#sbtn{
+  position: relative; left:20%;margin-top: 40px;font-size: 20px; background-color:white; width:100px;border: none; height:30px;border-radius:20px;
+}
+
+}

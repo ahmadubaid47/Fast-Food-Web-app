@@ -1,0 +1,232 @@
+<html>
+
+<head>
+   
+    <link rel="stylesheet" type="text/css" href="css/HOMEStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="css/javascript.js"></script>
+</head>
+
+<body>
+    <header>
+
+
+
+        <nav class="nav" >
+            <div class="left" >
+                <img src="./images/logo1.png" width="130px" height="130px" id="q"
+                    >
+                <ul id="top">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Deals.html">Deals</a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="login.html">Sign Up </a></li>
+
+                </ul>
+                <a href="#" class="mob-icon"  onclick="slideshow()"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+        <a href="home.html"><button id="tbtn"style="border:2px solid tomato; position: fixed; left:94%;top: 93%; background-color:tomato;color: white;padding: 4px;padding-right: 10px;padding-left: 10px; font-size: medium; font-family:Arial; ">^</button></a>        
+        <div id="outer">
+            <div id="inner">
+                <div class="slide" style="transform: translateZ(300px);">
+                    <img class="slideimg" src="images/pic 1.jpg" alt="error" />
+                </div>
+                <div class="slide" style="transform: rotateY(90deg) translateZ(300px);">
+                    <img class="slideimg" src="images/pic 2 (2).jpg" alt="error" />
+                </div>
+                <div class="slide" style="transform: rotateY(180deg) translateZ(300px);">
+                    <img class="slideimg" src="images/728333.jpg" alt="error" />
+                </div>
+                <div class="slide" style="transform: rotateY(-90deg) translateZ(300px);">
+                    <img class="slideimg" src="images/806368.jpg" alt="error" />
+                </div>
+                <div class="slide" style="transform: rotateY(-90deg) translateZ(300px);">
+                    <img class="slideimg" src="images/21574.jpg" alt="error" />
+                </div>
+                <div class="slide" style="transform: rotateY(-90deg) translateZ(300px);">
+                    <img class="slideimg" src="images/908160.jpg" alt="error" />
+                </div>
+            </div>
+        </div>
+        <div id="right" class="btn" style="float: right;">
+        
+        </div>
+
+    </header>
+<script type="text/javascript">
+function slideshow(){
+    var x=document.getElementById('c-cls');
+    if( x.style.display==='none'){
+        x.style.display==='block';
+    }else{
+        x.style.display==='none';
+    }
+}
+
+</script>
+    <div class="featured">
+        <h1><b><i> Featured Deals</i></b></h1>   
+    </div>
+  <div class="abc">
+      <div  id="rr" class="a">
+            
+        <img src="./images/pic 7.jpg" width="170px" height="150px" id="iamg">
+          <h3>PIZZA  Deals</h3>
+      <p>2 Personal pan pizza with 2 small drinks. Just in Rs 599/-</p>
+      <label >  Order Size</label><br>
+      <select name="combobox" id="">
+        <option value="1"> Extra Large </option>
+        <option value="1"> Large </option>
+        <option value="1"> Medium </option>
+        <option value="1"> Small </option>
+      </select>
+      
+      <button onclick="a()"  id="ii">Order Now</button>
+
+      </div>
+      <div id="qq" class="a">
+        <img src="./images/908160.jpg" width="170px" height="150px"id="iamg">
+        <h3>Burger Deals</h3>
+        <p>2 large Burgers with 2 coke. Just in Rs 799/-  </p>
+        <label > Order Size</label><br>
+        <select name="combobox" id="">
+          <option value="1"> Extra Large </option>
+          <option value="1"> large </option>
+          <option value="1"> Medium </option>
+          <option value="1"> Small </option>
+        </select>
+        <button onclick="b()" id="nn">Order Now</button>
+      </div>
+      <div id="ww" class="a" >
+        <img src="./MenuImgs/dsrt.jpg" width="170px" height="150px"id="iamg">
+        <h3>Dessert Deals</h3>
+        <p>2 OREO with special chocolate chips. Just in Rs 999/- </p>
+        <label > Order Size</label><br>
+        <select name="combobox" id="">
+          <option value="1"> Extra Large </option>
+          <option value="1"> large </option>
+          <option value="1">Medium </option>
+          <option value="1"> Small </option>
+        </select>
+        
+        <button onclick="c()" id="xy" >Order Now</button>
+      </div>
+
+      
+        <form action="signup.php" method="post" id="dh" class="main2"style="display:none;">
+   
+        <label id="k">Name<input type="text"  name="name" placeholder="Ahmad " id="v"/></label><br>
+        <label id="k">Location<input type="text"name="addrs" placeholder="westridge 1 Race course"id="v"/></label></br>
+        <label id="k">Phone <input type="tel"  name="contact_no" placeholder="051-97552414"id="v"/></label></br>
+        <label id="k">E mail <input type="email" name="e_mail" placeholder="ahmadubaidullah69@yahoo.com"id="v"/></label></br>
+  <label id="k">Food type<select id="v" >
+						
+          <label><option value="numl"> burger </label>
+          <label><option  value="numl"> pizza </label>
+            <label><option  value="numl">dessert </label>
+              <label><option  value="numl"> drink </label>
+                <label><option  value="numl"> bbq </label>
+                  <label><option  value="numl"> ice cream </label>
+                    <label><option  value="numl"> rice </label>
+                      <label><option  value="numl"> cake </label>
+      </select><br>
+         <label id="k">Order type<label style=" margin-left:5%;  width: 20%;"><input type="radio" name="Gender">Menu</label>
+            <label style="margin-left:5% ; width: 30%;"><input  type="radio" name="Gender">Deal</label></label></label><br>
+          
+        <button type="submit" style="font-size: small;" id="sbtn" value="">order now</button>
+
+</form>
+</div>
+
+
+
+<script>
+
+
+
+</script>
+
+
+
+
+<script>
+
+function a(){
+
+
+document.getElementById('ii').style.backgroundColor= 'green';
+document.getElementById('qq').style.display='none';
+document.getElementById('ww').style.display='none';
+document.getElementById('dh').style.display='block';
+
+
+    
+
+
+
+}
+function b(){
+            
+document.getElementById('nn').style.backgroundColor= 'green';
+
+document.getElementById('rr').style.display='none';
+ document.getElementById('ww').style.display='none';
+ document.getElementById('qq').style.float='left';
+ document.getElementById('dh').style.display='block';         
+        
+        }
+function c(){
+document.getElementById('xy').style.backgroundColor= 'green';
+document.getElementById('rr').style.display='none';
+ document.getElementById('qq').style.display='none';
+document.getElementById('ww').style.float='left';
+document.getElementById('dh').style.display='block';
+}
+
+</script>
+
+
+
+
+
+<footer class="ftr">
+    <div class="icons">
+        <div class="lft">
+        <h3>Stay Connected </h3>
+        <div class="sty">
+            <a href="#"><i class="fa fa-facebook-official fa fa-2x"style="color:lightblue;"></i></a>
+        
+            <a href="#"><i class="fa fa-youtube-play fa fa-2x"style="color:red" ></i></a>
+            <a href="#"><i class="fa fa-instagram fa fa-2x" style="color: blueviolet;"></i></a>
+            <a href="#"><i class="fa fa-twitter fa fa-2x"  style="color: white;"> </i></a>
+            <a href="#"><i class="fa fa-whatsapp fa fa-2x" style="color: greenyellow;" ></i></a>
+    </div> </div>
+    <div class="rgt">
+       <a href="#"><img src="images/googleplay.png" width="100px" height="50px"id="imgb"></a>
+        <a href="#"><img src="images/appstore.png"width="100px" height="50px"id="imgb"></a>
+        <h3>Get the Burgerzilla's App</h3>
+        </div>
+    </div>
+    <div>
+       <div class="trms">
+        <ul>
+            <li><a herf="#">CONTACT</a></li>
+            <li>I</li>
+            <li><a herf="#">PRIVACY</a></li>
+            <li>I</li>
+            <li><a herf="#">TERMS&CONDITIONS</a></li>
+
+        </ul>
+       </div>
+       <div class="cpy">
+        <p> &copy;2020 Burgerzilla’s. All Rights Reserved</p>
+
+       </div>
+       </div>
+</footer>
+
+</body>
+
+</html>

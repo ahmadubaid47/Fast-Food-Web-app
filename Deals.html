@@ -1,0 +1,783 @@
+<html>
+
+<head>
+    <title> My website</title>
+    <link rel="stylesheet" type="text/css" href="css/DealsStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+
+<body>
+    <header>
+
+
+
+        <nav class="nav" style="background-color:red;">
+            <div class="left">
+              <img src="./images/logo1.png" width="130px" height="130px" id="q"
+              >
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Deals.html">Deals</a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="login.html">Sign Up </a></li>
+
+                </ul>
+            </div>
+        </nav>
+       
+
+    </header>
+    <a href="Deals.html"><button id="tbtn"style="border:2px solid tomato; position: fixed; left:94%;top: 93%; background-color:tomato;color: white;padding: 4px;padding-right: 10px;padding-left: 10px; font-size: medium; font-family:Arial; ">^</button></a>
+<div class="top">
+  <h1 id="top1"> Deals </h1>
+  </div>
+  <div id="t1" class="featured">
+    <h1><b><i> Breakfast Deals</i></b></h1>   
+</div>
+<div id="wa" class="abc">
+  <div id="aa1" class="a">
+        
+   <img src="./images/bf1.jpg" width="200px" height="150px" id="iamg">
+      <h3> Deal 1</h3>
+  <p>2 pan cakes + 1 coffee. Just in Rs 299/-  </p>
+  <label for=""> Deal Size</label><br>
+  <select name="combobox" id="">
+    <option value="1"> Extra Large </option>
+    <option value="1"> large </option>
+    <option value="1"> Medium </option>
+    <option value="1"> Small </option>
+  </select>
+  
+  <button onclick="a1()" id="a1">Order Now</button>
+
+  </div>
+  <div id="bb1" class="a">
+    <img src="./images/bf2.jpg" width="200px" height="150px"id="iamg">
+    <h3> Deal 2</h3>
+    <p>1 omelates with cheese bread and muffins. Just in Rs 599/- </p>
+    <label for=""> Deal Size</label><br>
+    <select name="combobox" id="">
+      <option value="1"> Extra Large </option>
+      <option value="1"> large </option>
+      <option value="1">Medium </option>
+      <option value="1"> Small </option>
+    </select>
+    
+    <button onclick="b1()"id="b1">Order Now</button>
+  </div>
+  <div id="cc1" class="a">
+    <img src="./images/bf3.jpg" width="200px" height="150px"id="iamg">
+    <h3> Deal 3</h3>
+    <p>2 omelates with Fries. Just in RS 699/-  </p>
+    <label for=""> Deal Size</label><br>
+    <select name="combobox" id="">
+      <option value="1"> Extra Large </option>
+      <option value="1"> large </option>
+      <option value="1">Medium </option>
+      <option value="1"> Small </option>
+    </select>
+    
+    <button onclick="c1()" id="c1">Order Now</button>
+  </div>
+    <div id="dd1" class="a">
+    <img src="./images/bf4.jpg" width="200px" height="150px"id="iamg">
+    <h3> Deal 4</h3>
+    <p>2 pan cakes + 2 omelates with special turkish tea. Just in Rs 1099/- </p>
+    <label for=""> Deal Size</label><br>
+    <select name="combobox" id="">
+      <option value="1"> Extra Large </option>
+      <option value="1"> large </option>
+      <option value="1">Medium </option>
+      <option value="1"> Small </option>
+    </select>
+    
+    <button onclick="d1()" id="d1" >Order Now</button>
+  </div>
+
+  <form action="signup.php" method="post" id="dh46" class="main2"style="display:none;">
+   
+    <label id="k">Name<input type="text"  name="name" placeholder="Ahmad " id="v"/></label><br>
+    <label id="k">Location<input type="text"name="addrs" placeholder="westridge 1 Race course"id="v"/></label></br>
+    <label id="k">Phone <input type="tel"  name="contact_no" placeholder="051-97552414"id="v"/></label></br>
+    <label id="k">E mail <input type="email" name="e_mail" placeholder="ahmadubaidullah69@yahoo.com"id="v"/></label></br>
+<label id="k">Food type<select id="v" >
+        
+      <label><option value="numl"> burger </label>
+      <label><option  value="numl"> pizza </label>
+        <label><option  value="numl">dessert </label>
+          <label><option  value="numl"> drink </label>
+            <label><option  value="numl"> bbq </label>
+              <label><option  value="numl"> ice cream </label>
+                <label><option  value="numl"> rice </label>
+                  <label><option  value="numl"> cake </label>
+  </select><br>
+     <label id="k">Order type<label style=" margin-left:5%;  width: 20%;"><input type="radio" name="Gender">Menu</label>
+        <label style="margin-left:5% ; width: 30%;"><input  type="radio" name="Gender">Deal</label></label></label><br>
+      
+    <button type="submit" style="font-size: small;" id="sbtn" value="">order now</button>
+
+</form>
+
+
+
+</div>
+<div id="t2" class="featured 1">
+<h1><b><i> Free Home Delivery Deals</i></b></h1>   
+</div>
+<div id="wb" class="abc">
+<div id="aa2" class="a">
+    
+<img src="./images/fd1.jpg" width="200px" height="150px" id="iamg">
+  <h3> Deal 1</h3>
+<p>2 Chicken Zinger + Coke. Just in Rs 1000/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="a2()" id="a2">Order Now</button>
+
+</div>
+<div id="bb2" class="a">
+<img src="./images/fd2.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 2</h3>
+<p>Chicken Zinger + Turkey Burger. Just in Rs 1200/-  </p>
+<label for="">  Order Size</label><br>
+<select name="combobox" id="">
+  <option value="1"> Extra Large </option>
+  <option value="1"> Large </option>
+  <option value="1">Medium </option>
+  <option value="1"> Small </option>
+</select>
+
+<button onclick="b2()" id="b2">Order Now</button>
+</div>
+<div id="cc2" class="a">
+<img src="./images/fd3.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 3</h3>
+<p>Salmon Fish Burger + 2 Zinger. Just in Rs 1500/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+  <option value="1"> Extra Large </option>
+  <option value="1"> Large </option>
+  <option value="1">Medium </option>
+  <option value="1"> Small </option>
+</select>
+
+<button onclick="c2()" id="c2">Order Now</button>
+</div>
+<div id="dd2" class="a">
+<img src="./images/fd4.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 4</h3>
+<p>Turkey Burger + Salmon Burger + 2 coke. Just in Rs 2000/- </p>
+<label for="">  Order Size</label><br>
+<select name="combobox" id="">
+  <option value="1"> Extra Large </option>
+  <option value="1"> Large </option>
+  <option value="1">Medium </option>
+  <option value="1"> Small </option>
+</select>
+
+<button onclick="d2()"id="d2" >Order Now</button>
+</div>
+
+
+
+<form action="signup.php" method="post" id="dh43" class="main2"style="display:none;">
+   
+  <label id="k">Name<input type="text"  name="name" placeholder="Ahmad " id="v"/></label><br>
+  <label id="k">Location<input type="text"name="addrs" placeholder="westridge 1 Race course"id="v"/></label></br>
+  <label id="k">Phone <input type="tel"  name="contact_no" placeholder="051-97552414"id="v"/></label></br>
+  <label id="k">E mail <input type="email" name="e_mail" placeholder="ahmadubaidullah69@yahoo.com"id="v"/></label></br>
+<label id="k">Food type<select id="v" >
+      
+    <label><option value="numl"> burger </label>
+    <label><option  value="numl"> pizza </label>
+      <label><option  value="numl">dessert </label>
+        <label><option  value="numl"> drink </label>
+          <label><option  value="numl"> bbq </label>
+            <label><option  value="numl"> ice cream </label>
+              <label><option  value="numl"> rice </label>
+                <label><option  value="numl"> cake </label>
+</select><br>
+   <label id="k">Order type<label style=" margin-left:5%;  width: 20%;"><input type="radio" name="Gender">Menu</label>
+      <label style="margin-left:5% ; width: 30%;"><input  type="radio" name="Gender">Deal</label></label></label><br>
+    
+  <button type="submit" style="font-size: small;" id="sbtn" value="">order now</button>
+
+</form>
+
+
+</div>
+<div id="t3" class="featured">
+<h1><b><i> Party Deals</i></b></h1>   
+</div>
+<div id="wc" class="abc">
+<div id="aa3" class="a">
+  
+<img src="./images/bp1.jpg" width="200px" height="150px" id="iamg">
+<h3> Deal 1</h3>
+<p> Birthday Party. Just in Rs 3999/-</p>
+<label for="">  Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="a3()" id="a3">Order Now</button>
+
+</div>
+<div id="bb3" class="a">
+<img src="./images/bp2.jpg
+" width="200px" height="150px"id="iamg">
+<h3> Deal 2</h3>
+<p> Bussiness Party. Just in Rs 10000/-</p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="b3()" id="b3">Order Now</button>
+</div>
+<div id="cc3" class="a">
+<img src="./images/party deal 3.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 3</h3>
+<p> House Party. Just In Rs 4999/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="c3()" id="c3">Order Now</button>
+</div>
+<div id="dd3" class="a">
+<img src="./images/party deal 4.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 4</h3>
+<p> Farewell Party. Just in Rs 9999/-/p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="d3()" id="d3">Order Now</button>
+
+</div>
+<form action="signup.php" method="post" id="dh44" class="main2"style="display:none;">
+   
+  <label id="k">Name<input type="text"  name="name" placeholder="Ahmad " id="v"/></label><br>
+  <label id="k">Location<input type="text"name="addrs" placeholder="westridge 1 Race course"id="v"/></label></br>
+  <label id="k">Phone <input type="tel"  name="contact_no" placeholder="051-97552414"id="v"/></label></br>
+  <label id="k">E mail <input type="email" name="e_mail" placeholder="ahmadubaidullah69@yahoo.com"id="v"/></label></br>
+<label id="k">Food type<select id="v" >
+      
+    <label><option value="numl"> burger </label>
+    <label><option  value="numl"> pizza </label>
+      <label><option  value="numl">dessert </label>
+        <label><option  value="numl"> drink </label>
+          <label><option  value="numl"> bbq </label>
+            <label><option  value="numl"> ice cream </label>
+              <label><option  value="numl"> rice </label>
+                <label><option  value="numl"> cake </label>
+</select><br>
+   <label id="k">Order type<label style=" margin-left:5%;  width: 20%;"><input type="radio" name="Gender">Menu</label>
+      <label style="margin-left:5% ; width: 30%;"><input  type="radio" name="Gender">Deal</label></label></label><br>
+    
+  <button type="submit" style="font-size: small;" id="sbtn" value="">order now</button>
+
+</form>
+
+
+
+
+</div>
+<div id="t4" class="featured">
+<h1><b><i> Midnight Deals</i></b></h1>   
+</div>
+<div id="wd" class="abc">
+<div id="aa4" class="a">
+  
+<img src="./images/mn1.jpg" width="200px" height="150px" id="iamg">
+<h3> Deal 1</h3>
+<p>5 Burger + 1.5 litre coke. Just in Rs 999/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="a4()" id="a4">Order Now</button>
+
+</div>
+<div id="bb4"  class="a">
+<img src="./images/mn2.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 2</h3>
+<p>4 Pizza + 1.5 Litre pepsi. Just in Rs 1100/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="b4()" id="b4">Order Now</button>
+</div>
+<div id="cc4" class="a">
+<img src="./images/mn3.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 3</h3>
+<p>2 Pizza + 2 Zinger. Just in Rs 999/- </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="c4()" id="c4">Order Now</button>
+</div>
+<div id="dd4" class="a">
+<img src="./images/mn4.jpg" width="200px" height="150px"id="iamg">
+<h3> Deal 4</h3>
+<p>2 Zinger + 3 Pizza. Just in </p>
+<label for=""> Order Size</label><br>
+<select name="combobox" id="">
+<option value="1"> Extra Large </option>
+<option value="1"> Large </option>
+<option value="1">Medium </option>
+<option value="1"> Small </option>
+</select>
+
+<button onclick="d4()" id="d4">Order Now</button>
+</div>
+
+<form action="signup.php" method="post" id="dh45" class="main2"style="display:none;">
+   
+  <label id="k">Name<input type="text"  name="name" placeholder="Ahmad " id="v"/></label><br>
+  <label id="k">Location<input type="text"name="addrs" placeholder="westridge 1 Race course"id="v"/></label></br>
+  <label id="k">Phone <input type="tel"  name="contact_no" placeholder="051-97552414"id="v"/></label></br>
+  <label id="k">E mail <input type="email" name="e_mail" placeholder="ahmadubaidullah69@yahoo.com"id="v"/></label></br>
+<label id="k">Food type<select id="v" >
+      
+    <label><option value="numl"> burger </label>
+    <label><option  value="numl"> pizza </label>
+      <label><option  value="numl">dessert </label>
+        <label><option  value="numl"> drink </label>
+          <label><option  value="numl"> bbq </label>
+            <label><option  value="numl"> ice cream </label>
+              <label><option  value="numl"> rice </label>
+                <label><option  value="numl"> cake </label>
+</select><br>
+   <label id="k">Order type<label style=" margin-left:5%;  width: 20%;"><input type="radio" name="Gender">Menu</label>
+      <label style="margin-left:5% ; width: 30%;"><input  type="radio" name="Gender">Deal</label></label></label><br>
+    
+  <button type="submit" style="font-size: small;" id="sbtn" value="">order now</button>
+
+</form>
+
+
+
+
+</div>
+<footer class="ftr">
+  <div class="icons">
+      <div class="lft">
+      <h3>Stay Connected </h3>
+      
+      <a href="#"><i class="fa fa-facebook-official fa fa-2x"style="color:lightblue;"></i></a>
+        
+      <a href="#"><i class="fa fa-youtube-play fa fa-2x"style="color:red" ></i></a>
+      <a href="#"><i class="fa fa-instagram fa fa-2x" style="color: blueviolet;"></i></a>
+      <a href="#"><i class="fa fa-twitter fa fa-2x"  style="color: white;"> </i></a>
+      <a href="#"><i class="fa fa-whatsapp fa fa-2x" style="color: greenyellow;" ></i></a>
+      </div>
+  <div class="rgt">
+     <a href="#"><img src="images/googleplay.png" width="100px" height="50px"></a>
+      <a href="#"><img src="images/appstore.png"width="100px" height="50px"></a>
+      <h3>Get the Burgerzilla's App</h3>
+      </div>
+  </div>
+  <div>
+     <div class="trms">
+      <ul>
+          <li><a herf="#">CONTACT</a></li>
+          <li>I</li>
+          <li><a herf="#">PRIVACY</a></li>
+          <li>I</li>
+          <li><a herf="#">TERMS&CONDITIONS</a></li>
+
+      </ul>
+     </div>
+     <div class="cpy">
+      <p> &copy;2020 Burgerzilla’s. All Rights Reserved</p>
+
+     </div>
+     
+   
+
+
+    
+    
+    
+    </div>
+</footer>
+
+
+
+
+  <script>
+
+    function a1(){
+    
+    
+    document.getElementById('a1').style.backgroundColor= 'green';
+    document.getElementById('bb1').style.display='none';
+    document.getElementById('cc1').style.display='none';
+    document.getElementById('dd1').style.display='none';
+    document.getElementById('aa1').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+        
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    document.getElementById('dh46').style.display='block';
+    
+    
+
+    
+    
+    }
+
+    function a2(){
+    
+    
+    document.getElementById('a2').style.backgroundColor= 'green';
+    document.getElementById('bb2').style.display='none';
+    document.getElementById('cc2').style.display='none';
+    document.getElementById('dd2').style.display='none';
+    document.getElementById('aa2').style.float='left';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+        
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    document.getElementById('dh43').style.display='block';
+
+    
+    
+    }
+
+
+    function a3(){
+    
+    
+    document.getElementById('a3').style.backgroundColor= 'green';
+    document.getElementById('bb3').style.display='none';
+    document.getElementById('cc3').style.display='none';
+    document.getElementById('dd3').style.display='none';
+    document.getElementById('aa3').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t4').style.display='none';
+        
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wd').style.display='none';
+    document.getElementById('dh44').style.display='block';
+    
+
+    
+    
+    }
+    function a4(){
+    
+    
+    document.getElementById('a4').style.backgroundColor= 'green';
+    document.getElementById('bb4').style.display='none';
+    document.getElementById('cc4').style.display='none';
+    document.getElementById('dd4').style.display='none';
+    document.getElementById('aa4').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t1').style.display='none';
+        
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wa').style.display='none';
+    document.getElementById('dh45').style.display='block';
+    
+
+    
+    
+    }
+
+
+    function b1(){
+
+  document.getElementById('b1').style.backgroundColor= 'green';
+    document.getElementById('aa1').style.display='none';
+    document.getElementById('cc1').style.display='none';
+    document.getElementById('dd1').style.display='none';
+    document.getElementById('bb1').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+            
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    document.getElementById('dh46').style.display='block';
+
+    
+            }
+
+            function b2(){
+
+document.getElementById('b2').style.backgroundColor= 'green';
+  document.getElementById('aa2').style.display='none';
+  document.getElementById('cc2').style.display='none';
+  document.getElementById('dd2').style.display='none';
+  document.getElementById('bb2').style.float='left';
+  document.getElementById('t1').style.display='none';
+  document.getElementById('t3').style.display='none';
+  document.getElementById('t4').style.display='none';
+          
+  document.getElementById('wa').style.display='none';
+  document.getElementById('wc').style.display='none';
+  document.getElementById('wd').style.display='none';
+  
+  document.getElementById('dh43').style.display='block';
+
+  
+          }
+
+          function b3(){
+
+document.getElementById('b3').style.backgroundColor= 'green';
+  document.getElementById('aa3').style.display='none';
+  document.getElementById('cc3').style.display='none';
+  document.getElementById('dd3').style.display='none';
+  document.getElementById('bb3').style.float='left';
+  document.getElementById('t2').style.display='none';
+  document.getElementById('t1').style.display='none';
+  document.getElementById('t4').style.display='none';
+          
+  document.getElementById('wa').style.display='none';
+  document.getElementById('wb').style.display='none';
+  document.getElementById('wd').style.display='none';
+  
+  
+  document.getElementById('dh44').style.display='block';
+  
+          }
+
+          function b4(){
+
+document.getElementById('b4').style.backgroundColor= 'green';
+  document.getElementById('aa4').style.display='none';
+  document.getElementById('cc4').style.display='none';
+  document.getElementById('dd4').style.display='none';
+  document.getElementById('bb4').style.float='left';
+  document.getElementById('t2').style.display='none';
+  document.getElementById('t3').style.display='none';
+  document.getElementById('t1').style.display='none';
+          
+  document.getElementById('wb').style.display='none';
+  document.getElementById('wc').style.display='none';
+  document.getElementById('wa').style.display='none';
+  
+  document.getElementById('dh45').style.display='block';
+
+  
+          }
+
+
+    function c1(){
+      document.getElementById('c1').style.backgroundColor= 'green';
+    document.getElementById('bb1').style.display='none';
+    document.getElementById('aa1').style.display='none';
+    document.getElementById('dd1').style.display='none';
+    document.getElementById('cc1').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    
+    document.getElementById('dh46').style.display='block';
+
+
+    }
+
+    function c2(){
+      document.getElementById('c2').style.backgroundColor= 'green';
+    document.getElementById('bb2').style.display='none';
+    document.getElementById('aa2').style.display='none';
+    document.getElementById('dd2').style.display='none';
+    document.getElementById('cc2').style.float='left';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    document.getElementById('dh43').style.display='block';
+
+
+
+    }
+    function c3(){
+      document.getElementById('c3').style.backgroundColor= 'green';
+    document.getElementById('bb3').style.display='none';
+    document.getElementById('aa3').style.display='none';
+    document.getElementById('dd3').style.display='none';
+    document.getElementById('cc3').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    document.getElementById('dh44').style.display='block';
+
+
+
+    }
+    function c4(){
+      document.getElementById('c4').style.backgroundColor= 'green';
+    document.getElementById('bb4').style.display='none';
+    document.getElementById('aa4').style.display='none';
+    document.getElementById('dd4').style.display='none';
+    document.getElementById('cc4').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t1').style.display='none';
+    
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wa').style.display='none';
+    
+    document.getElementById('dh45').style.display='block';
+
+
+
+    }
+    function d1(){
+      document.getElementById('d1').style.backgroundColor= 'green';
+    document.getElementById('bb1').style.display='none';
+    document.getElementById('cc1').style.display='none';
+    document.getElementById('aa1').style.display='none';
+    document.getElementById('dd1').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+
+
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    
+
+    document.getElementById('dh46').style.display='block';
+    }
+    function d2(){
+      document.getElementById('d2').style.backgroundColor= 'green';
+    document.getElementById('bb2').style.display='none';
+    document.getElementById('cc2').style.display='none';
+    document.getElementById('aa2').style.display='none';
+    document.getElementById('dd2').style.float='left';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+
+
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    
+    document.getElementById('dh43').style.display='block';
+    
+    }
+    function d3(){
+      document.getElementById('d3').style.backgroundColor= 'green';
+    document.getElementById('bb3').style.display='none';
+    document.getElementById('cc3').style.display='none';
+    document.getElementById('aa3').style.display='none';
+    document.getElementById('dd3').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t1').style.display='none';
+    document.getElementById('t4').style.display='none';
+    
+
+
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wa').style.display='none';
+    document.getElementById('wd').style.display='none';
+    
+    document.getElementById('dh44').style.display='block';
+
+    
+    }
+    function d4(){
+      document.getElementById('d4').style.backgroundColor= 'green';
+    document.getElementById('bb4').style.display='none';
+    document.getElementById('cc4').style.display='none';
+    document.getElementById('aa4').style.display='none';
+    document.getElementById('dd4').style.float='left';
+    document.getElementById('t2').style.display='none';
+    document.getElementById('t3').style.display='none';
+    document.getElementById('t1').style.display='none';
+    
+
+
+    document.getElementById('wb').style.display='none';
+    document.getElementById('wc').style.display='none';
+    document.getElementById('wa').style.display='none';
+    
+    document.getElementById('dh45').style.display='block';
+
+    
+    }
+    
+    </script>
+   
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1008 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;
+    
+}
+p{
+    font-style: italic;
+;
+}
+body{
+  background-image: url('../123.jpg');
+  height:auto ;
+  width:99%;
+
+}
+.nav{
+  background-color:red;
+}
+#q{
+  margin-left:50px ; margin-top: 0px; border-radius: 70px;
+}
+.left  ul{
+  float: right;
+    list-style-type: none;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-left: auto;
+   
+}
+.left ul li{
+display: inline-block;
+font-style: oblique;
+font-size: large;
+}
+.left  ul li a{
+   
+    text-decoration:none ; color: yellow;  padding: 10px; padding-left: 35px; padding-right: 35px;
+    
+}
+.left ul li a:hover{ border-bottom:2px solid yellow ; }
+
+
+.ig{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(../MenuImgs/pza.jpg);
+   background-position: center;
+   background-size: cover;
+    margin-top: 2px;
+    margin-right: 7px;
+    background-repeat: no-repeat;
+   width: 99%;
+   height:70%;
+   border: 1px solid black;
+
+
+
+}
+.ig h1{
+    text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-size: xx-large;
+  color:white;
+}
+.upper{
+
+    width: 70%;
+    height:1000px;
+    border:6px solid black;
+margin-left: auto;
+margin-right: auto;
+  margin-top: 30px;
+    background-color:rgba(0,0,0,0.6);
+}
+.up1{
+    width: 97%;
+    height:250px;
+
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+
+}
+
+.up1 h1{
+    margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.up1 pre{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up1 ul{
+    
+
+    margin-left:auto ;
+    margin-right:auto;
+    color: whitesmoke;
+    list-style-type: none;
+}
+.up1 ul li{
+    
+    font-size: large;
+  text-align: center;
+    color: whitesmoke;
+}
+.up1 p{
+  font-size: large;
+    text-align: center;
+    margin-left:auto ;
+    margin-right:auto;
+    color: whitesmoke;
+}
+
+.ftr{
+    margin-top: 80px;
+    height:180px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 5px;
+   
+    height: 70px;
+    width:40%;
+  }
+  .trms ul{
+    list-style-type:none;
+    display: inline-block;
+    margin-left:40px;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+    float: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  }
+  .icons{
+   width: 99%;
+   height:100px;
+  
+  }
+  
+  .lft{
+   
+    margin-top: 1%;
+    width: 40%;
+    float: left;
+    margin: 10px;
+    margin-left: 6%;
+    color:whitesmoke;
+  }
+  .lft h3{
+  float: left;
+  font-size: x-large;
+   font-weight: bolder;
+  }
+  .cpy{
+    float: right;
+    margin-top: 5px;
+    
+    height: 70px;
+    width:40%;
+    margin-right: 90px;
+  
+  }
+  .cpy p{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: small;
+  }
+  .lft a{
+    float: left;
+    margin-top: 25px;
+    margin-left:10px ;
+    
+    border-radius: 150px;
+  }
+  
+  .rgt{
+    
+    margin-top: 1%;
+    margin-right: 9%;
+    width: 40%;
+    float: right;
+    color:whitesmoke;
+  }
+  .rgt h3{
+   float: right;
+   font-size: x-large;
+   font-weight: bolder;
+  }
+  .rgt a{
+    float: right;
+    margin: 10px;
+  }
+
+
+
+@media only screen and (max-width:1230px){
+    .ftr{
+      margin-top: 80px;
+      height:430px ;
+      width: 100%;
+     
+      background-color:black;
+    }
+  
+  
+  
+  
+  
+  
+  
+    
+  }
+  @media only screen and (max-width:1280px){
+    .ftr{
+      margin-top: 80px;
+      height:430px ;
+      width: 100%;
+     
+      background-color:black;
+    }
+    .featured{
+    
+      width: 80%;
+      height:50px ;
+    
+      margin-left: 9%;
+      border: 1px solid black;
+      margin-top:100px;
+      background-color:yellow;
+      border-radius: 150px;
+    
+    
+    }
+    .featured h1{
+      border: 2px solid black;
+      border-radius: 18px;
+      text-align: center;
+      font-size: large;
+      font-style:oblique;
+      background-color: red;
+      color:yellow;
+   }
+   .abc{
+         
+         
+     width: 95%;
+     margin-left:57px ;
+     height:510px ;
+     background-color:transparent;
+     
+   }
+   .a select:hover{
+     width: 70%;
+     border: solid 4px red;
+     background-color: red;
+     color:black;
+   
+     border-radius: 15px;
+   }
+   
+   
+   .a{
+     text-align: center;
+     border: 2px solid red;
+     border-radius: 25px;
+     width: 22%;
+     height:480px ;
+     float: left;
+     margin-left:1% ;
+     margin-top: 10px;
+     color:black;
+     background-color:red;
+      
+   }
+   .a:hover{
+     background-color:yellow;
+     color:black;
+     border:yellow;
+     animation: shake 0.5s;
+   
+   /* When the animation is finished, start again */
+   animation-iteration-count: infinite;
+   }
+   label{
+   font-size: medium;
+   }
+   .a select{
+   width: 70%;
+   margin-top: 20px;
+   border: solid 4px bisque;
+   font-size: small;
+   background-color: darksalmon;
+   color: black;
+   border-radius: 15px;
+   }
+   #iamg{
+    margin-top: 40px;
+   border-radius: 10px;
+   width: 65%;
+   height: 35%;
+   
+   }
+   .a button{
+   border-radius:12px;
+   padding:5px;
+   padding-right:15px;
+   padding-left:15px;
+   margin-top: 20px;
+       background-color:black;
+       color:red;
+    font-size:18px;
+    border: 2px solid black;
+   border-style: inherit;
+   }
+   .a p{
+   font-size: small;
+   }
+   .a h3{
+    font-size: large;  
+   }
+  
+  
+  
+   .abcd{
+         
+         
+     width: 95%;
+     margin-left:57px ;
+     height:510px ;
+     background-color:transparent;
+     
+   }
+   .b select:hover{
+     width: 70%;
+     border: solid 4px red;
+     background-color: red;
+     color:black;
+   
+     border-radius: 15px;
+   }
+   
+   
+   .b{
+     text-align: center;
+     border: 2px solid red;
+     border-radius: 25px;
+     width: 22%;
+     height:480px ;
+     float: left;
+     margin-left:1% ;
+     margin-top: 10px;
+     color:black;
+     background-color:red;
+      
+   }
+   .b:hover{
+     background-color:yellow;
+     color:black;
+     border:yellow;
+     animation: shake 0.5s;
+   
+   /* When the animation is finished, start again */
+   animation-iteration-count: infinite;
+   }
+   label{
+   font-size: medium;
+   }
+   .b select{
+   width: 70%;
+   margin-top: 20px;
+   border: solid 4px bisque;
+   font-size: small;
+   background-color: darksalmon;
+   color: black;
+   border-radius: 15px;
+   }
+   #iamg{
+    margin-top: 40px;
+   border-radius: 10px;
+   width: 65%;
+   height: 35%;
+   
+   }
+   .b button{
+   border-radius:12px;
+   padding:5px;
+   padding-right:15px;
+   padding-left:15px;
+   margin-top: 20px;
+       background-color:black;
+       color:red;
+    font-size:18px;
+    border: 2px solid black;
+   border-style: inherit;
+   }
+   .b p{
+   font-size: small;
+   }
+   .b h3{
+    font-size: large;  
+   }
+   .up1 p{
+    font-size: medium;
+      font-weight: lighter;
+  }
+
+
+.up1 ul li{
+        font-size: medium;
+    }
+.up1 h1{
+    font-size:large ;
+    margin-left: 40%;
+  margin-right: 10%;
+
+}
+  
+  
+  }
+  @media only screen and (max-width:1190px){
+    .ftr{
+      margin-top: 80px;
+      height:400px ;
+      width: 100%;
+     
+      background-color:black;
+    }
+    .cpy{
+    
+      margin-top: 5px;
+      height: 70px;
+      width:100%;
+    
+    
+    }
+    .cpy p{
+      color: whitesmoke;
+      font-weight: bold;
+      font-size: small;
+      margin-left:45%;
+      }
+  
+    
+      .abc{
+            
+            
+        width: 95%;
+        margin-left:57px ;
+        height:510px ;
+        background-color:transparent;
+        
+      }
+      .a select:hover{
+        width: 70%;
+        border: solid 4px red;
+        background-color: red;
+        color:black;
+      
+        border-radius: 15px;
+      }
+      
+      
+      .a{
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 25px;
+        width: 22%;
+        height:480px ;
+        float: left;
+        margin-left:1% ;
+        margin-top: 10px;
+        color:black;
+        background-color:red;
+         
+      }
+      .a:hover{
+        background-color:yellow;
+        color:black;
+        border:yellow;
+        animation: shake 0.5s;
+      
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+      }
+      label{
+      font-size: medium;
+      }
+      .a select{
+      width: 70%;
+      margin-top: 20px;
+      border: solid 4px bisque;
+      font-size: small;
+      background-color: darksalmon;
+      color: black;
+      border-radius: 15px;
+      }
+      #iamg{
+       margin-top: 40px;
+      border-radius: 10px;
+      width: 65%;
+      height: 35%;
+      
+      }
+      .a button{
+      border-radius:12px;
+      padding:5px;
+      padding-right:15px;
+      padding-left:15px;
+      margin-top: 20px;
+          background-color:black;
+          color:red;
+       font-size:18px;
+       border: 2px solid black;
+      border-style: inherit;
+      }
+      .a p{
+      font-size: small;
+      }
+      .a h3{
+       font-size: large;  
+      }
+  
+  
+  
+      .abcd{
+            
+            
+        width: 95%;
+        margin-left:57px ;
+        height:510px ;
+        background-color:transparent;
+        
+      }
+      .b select:hover{
+        width: 70%;
+        border: solid 4px red;
+        background-color: red;
+        color:black;
+      
+        border-radius: 15px;
+      }
+      
+      
+      .b{
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 25px;
+        width: 22%;
+        height:480px ;
+        float: left;
+        margin-left:1% ;
+        margin-top: 10px;
+        color:black;
+        background-color:red;
+         
+      }
+      .b:hover{
+        background-color:yellow;
+        color:black;
+        border:yellow;
+        animation: shake 0.5s;
+      
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+      }
+      label{
+      font-size: medium;
+      }
+      .b select{
+      width: 70%;
+      margin-top: 20px;
+      border: solid 4px bisque;
+      font-size: small;
+      background-color: darksalmon;
+      color: black;
+      border-radius: 15px;
+      }
+      #iamg{
+       margin-top: 40px;
+      border-radius: 10px;
+      width: 65%;
+      height: 35%;
+      
+      }
+      .b button{
+      border-radius:12px;
+      padding:5px;
+      padding-right:15px;
+      padding-left:15px;
+      margin-top: 20px;
+          background-color:black;
+          color:red;
+       font-size:18px;
+       border: 2px solid black;
+      border-style: inherit;
+      }
+      .b p{
+      font-size: small;
+      }
+      .b h3{
+       font-size: large;  
+      }
+  
+  
+      .up1 p{
+        font-size: medium;
+          font-weight: lighter;
+      }
+    
+    
+    .up1 ul li{
+            font-size: medium;
+        }
+    .up1 h1{
+        font-size:large ;
+        margin-left: 40%;
+      margin-right: 10%;
+    
+    }
+  
+  
+  
+  
+  }
+  @media only screen and (max-width:1120px){
+    .ftr{
+      margin-top: 80px;
+      height:400px ;
+      width: 100%;
+      background-color:black;
+    }
+    .trms{
+      float: left;
+      margin-top: 17px;
+     
+      height: 70px;
+      width:100%;
+    }
+    .trms ul{
+      
+      list-style-type:none;
+      display: inline-block;
+    margin-left: 25%;
+    
+    }
+    .trms ul li{
+      color:whitesmoke;
+    text-align: center;
+    
+      font-weight: bolder;
+      font-size: small;
+    }
+    .trms ul li a{
+      font-style: inherit;
+      color: whitesmoke;
+      }
+    .trms ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+    
+  }
+  
+  .ftr{
+    margin-top: 80px;
+    height:400px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 17px;
+   
+    height: 70px;
+    width:100%;
+  }
+  .trms ul{
+    
+    list-style-type:none;
+    display: inline-block;
+  margin-left: 25%;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+  text-align: center;
+  
+    font-weight: bolder;
+    font-size: small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  }
+  .icons{
+   width: 99%;
+   height:100px;
+  
+  }
+  
+  .lft{
+   
+    margin-top: 1%;
+    width: 100%;
+  
+    margin: 10px;
+    margin-left: 26%;
+    color:whitesmoke;
+  }
+  .lft h3{
+  
+  text-align: center;
+  font-size: large;
+   font-weight: bolder;
+  }
+  .cpy{
+    
+    margin-top: 5px;
+    height: 70px;
+    width:100%;
+    margin-left: 10%;
+  
+  
+  }
+  .cpy p{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: small;
+  margin-left:40%;
+  }
+  .lft a{
+    
+    margin-top: 17px;
+    margin-left:20px ;
+    
+    border-radius: 150px;
+  }
+  #imga{
+    width:25px ;
+    height:25px ;
+  }
+  #imgb{
+    width:70px ;
+    height:30px ;
+  }
+  .rgt{
+    
+    margin-top: 1%;
+    margin-right: 27%;
+    width: 100%;
+    float: right;
+    color:whitesmoke;
+  }
+  .rgt h3{
+   float: right;
+   font-size: larger;
+   font-weight: bolder;
+  }
+  .rgt a{
+    float: right;
+    margin: 10px;
+  }
+
+  .up1 p{
+    font-size: medium;
+      font-weight: lighter;
+  }
+
+
+.up1 ul li{
+        font-size: medium;
+    }
+.up1 h1{
+    font-size:large ;
+    margin-left: 35%;
+  margin-right: 10%;
+
+}
+
+
+
+
+  }
+  @media only screen and (max-width: 875px ){
+    .left   ul{
+      float: right;
+       list-style-type: none;
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-left: auto;
+       
+    }
+    .left  ul li{
+    display: inline-block;
+    font-style: oblique;
+    font-size:large;
+    }
+    .left  ul li a{
+       
+        text-decoration:none ; color: yellow;  padding: 5px; 
+        
+    }
+    #q{
+      height: 100px; width:100; margin-left:50px ; margin-top: 0px; border-radius: 70px;
+      
+    }
+    
+    .up1 p{
+        font-size: medium;
+          font-weight: lighter;
+      }
+    
+    
+    .up1 ul li{
+            font-size: medium;
+        }
+    .up1 h1{
+        font-size:large ;
+        margin-left: 35%;
+      margin-right: 10%;
+    
+    } 
+  
+  
+  
+  
+  
+     
+  
+  }
+  @media only screen and (max-width: 650px ){
+    #q{
+      height: 70px; width:70; margin-left:50px ; margin-top: 0px; border-radius: 70px;
+      
+    }
+    
+    
+    .left   ul{
+      float: right;
+       list-style-type: none;
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-left: auto;
+       
+    }
+    .left  ul li{
+    display: inline-block;
+    font-style: oblique;
+    font-size:small;
+    }
+    .left  ul li a{
+       
+        text-decoration:none ; color: yellow;  padding: 5px; 
+        
+    }
+    .left ul li a:hover{ border-bottom:2px solid yellow ; }
+  
+  
+  .up1 p{
+    font-size: small;
+      font-weight: lighter;
+  }
+
+
+.up1 ul li{
+        font-size: small;
+    }
+.up1 h1{
+    font-size:medium ;
+    margin-left: 35%;
+  margin-right: 10%;
+
+}
+.ftr{
+    margin-top: 80px;
+    height:280px ;
+    width: 100%;
+    background-color:black;
+  }
+  .trms{
+    float: left;
+    margin-top: 17px;
+   
+    height: 70px;
+    width:100%;
+  }
+  .trms ul{
+    
+    list-style-type:none;
+    display: inline-block;
+  margin-right: 14px;
+  
+  }
+  .trms ul li{
+    color:whitesmoke;
+  text-align: center;
+  
+    font-weight: bolder;
+    font-size: x-small;
+  }
+  .trms ul li a{
+    font-style: inherit;
+    color: whitesmoke;
+    }
+  .trms ul li a:hover{
+  border-bottom: 2px solid whitesmoke;
+  }
+  .icons{
+   width: 99%;
+   height:100px;
+  
+  }
+  
+  .lft{
+   
+    margin-top: 1%;
+    width: 100%;
+  
+    margin: 10px;
+    margin-left: 20%;
+    color:whitesmoke;
+  }
+  .lft h3{
+  
+  text-align: center;
+  font-size: medium;
+   font-weight: bolder;
+  }
+  .cpy{
+    
+    margin-top: 5px;
+    
+    height: 70px;
+    width:100%;
+  
+  
+  }
+  .cpy p{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: small;
+  margin-left: 210px;
+  }
+  .lft a{
+    
+    margin-top: 17px;
+    margin-left:20px ;
+    
+    border-radius: 150px;
+  }
+  #imga{
+    width:25px ;
+    height:25px ;
+  }
+  #imgb{
+    width:70px ;
+    height:30px ;
+  }
+  .rgt{
+    
+    margin-top: 1%;
+    margin-right: 13%;
+    width: 100%;
+    float: right;
+    color:whitesmoke;
+  }
+  .rgt h3{
+   float: right;
+   font-size: medium;
+   font-weight: bolder;
+  }
+  .rgt a{
+    float: right;
+    margin: 10px;
+  }    
+   
+  }  
+
+
+

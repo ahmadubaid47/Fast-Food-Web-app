@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;
+    
+}
+body{
+  background-image: url('../123.jpg');
+  height:auto ;
+  width:99%;
+
+}
+
+.left   ul{
+  float: right;
+    list-style-type: none;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-left: auto;
+   
+}
+.left  ul li{
+display: inline-block;
+font-style: oblique;
+font-size: large;
+}
+.left  ul li a{
+   
+    text-decoration:none ; color: yellow;  padding: 10px; padding-left: 35px; padding-right: 35px;
+    
+}
+.left ul li a:hover{ border-bottom:2px solid yellow ; }
+#outer{
+    width:65%;
+    height: 350px;
+    perspective: 1000px;
+    margin-top: 100px;
+  position: inherit;
+    margin-left:70px ;
+  
+}
+#outer{
+    display: inline-block;
+
+}
+#inner{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    transform-style: preserve-3d;
+    transition: 0.6s ease;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.slideimg{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    width:150px;
+    height: 530px;
+    margin: 5px;
+}
+
+
+
+.featured{
+
+    width: 90%;
+    height:80px ;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-top:100px;
+    background-color:yellow;
+    border-radius: 150px;
+
+
+}
+.featured h1{
+     border: 2px solid black;
+     text-align: center;
+     font-size: xx-large;
+     font-style:oblique;
+     background-color: red;
+     color:yellow;
+}
+.abc{
+    
+    
+    width: 100%;
+    height:510px ;
+    background-color:transparent;
+  
+}
+.a:hover{
+  background-color: yellow;
+  color: red;
+  border: yellow;
+  transition: 0.7s ease;
+}
+
+.a{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 23%;
+    height:480px ;
+    float: left;
+    margin-left:21px ;
+    margin-top: 10px;
+    background-color: red;
+}
+.a select{
+  width: 40%;
+  margin-top: 20px;
+  border: solid 4px black;
+  background-color: salmon;
+  border-radius: 15px;
+}
+.a select:hover{
+  width: 40%;
+  border: solid 4px salmon;
+  background-color: tomato;
+  color: black;
+
+  border-radius: 15px;
+}
+#iamg{
+   margin-top: 30px;
+   
+   border:3px solid black ;
+  border-radius: 170px;
+
+}
+#iamg:hover{
+  border:3px solid red ;
+  
+}
+.a button{
+  border-radius:12px;
+  padding:10px;
+  padding-right:65px;
+  padding-left:65px;
+ margin-top: 20px;
+      background-color:black;
+      color: red;
+   font-size:20px;
+   border: 2px solid black;
+}
+.a button:hover{
+  background-color:red;
+  border: red;
+  color:yellow;
+  transition: 0.6s ease;}
+  
+.ftr{
+  margin-top: 80px;
+  height:350px ;
+  width: 100%;
+  background-color: darkslategray;
+}
